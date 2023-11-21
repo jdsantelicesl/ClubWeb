@@ -41,11 +41,13 @@ In development environment, we use port 5000, go to [http://127.0.0.1:5000](http
 
 ## React
 
-> To run both projects, you need 2 terminals. 
+React is a Node.js framework used for front-end in our project. 
 
-To use React in the project, you need `Node.js` and `npm`.
+> To run both fromeworks, Flask and React, you have to go to the other new terminal. 
 
-Install Node.js and npx.
+React relates to `Node.js` and `npm`; therefore, to install node.js and npm is the first step.
+
+### Install Node.js and npx.
 
 To check Node.js and npm is available:
 
@@ -64,4 +66,5 @@ If not, install [Node.js](https://nodejs.org/en/download/)
 cd ./client
 npm start
 ```
+Go to [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
