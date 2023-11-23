@@ -31,6 +31,9 @@ pip3 install Flask
 
 # install restful api
 pip3 install Flask-RESTful
+
+# install Flask CORS
+pip3 install Flask-CORS
 ```
 
 Run Flask:
