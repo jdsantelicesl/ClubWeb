@@ -1,4 +1,6 @@
 # mac
 .idea
 
-node_modules
+# node.js
+/node_modules
+package-lock.json
