@@ -28,6 +28,12 @@ Install Flask package:
 
 ```shell
 pip3 install Flask
+
+# install restful api
+pip3 install Flask-RESTful
+
+# install Flask CORS
+pip3 install Flask-CORS
 ```
 
 Run Flask:
@@ -64,6 +70,11 @@ If not, install [Node.js](https://nodejs.org/en/download/)
 ```shell
 # go client path
 cd ./client
+
+# install and update react packages
+npm update
+
+# start
 npm start
 ```
 Go to [http://127.0.0.1:3000](http://127.0.0.1:3000)
