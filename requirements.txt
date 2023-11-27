@@ -1,0 +1,4 @@
+# This file installs all requirements for server side. Run "pip install requirements.txt" on terminal
+# in order to automatically install all needed python packages. */
+
+flask>=2.0 #installs flask version 2.0 or newer
