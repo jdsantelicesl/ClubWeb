@@ -1,15 +1,14 @@
-from flask import Flask, render_template, send_file
+# Flask backend will work as a RESTFUL API, meaning that it will
+# allow React front end to fetch and send data to it, but
+# it will not server the React app. 
 
-app = Flask(
-    __name__,
-    template_folder="../client/public",
-    static_folder="../client/public",
-    static_url_path="/static",
-)
+from flask import Flask
+
+app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return "success"
 
 if __name__ == "__main__":
     app.run(port=8888, debug=True)
