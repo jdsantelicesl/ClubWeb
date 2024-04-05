@@ -10,13 +10,13 @@ function App() {
     <Router>
       <div className="App">
 
-        <div className="hotbar">
+        <div>
           <Link className="Link" to="/">
-            <p id="head" className="hSelec">
+            <p id="head">
               SCCPC
             </p>
           </Link>
-          <Link className="hSelec Link" to="/projects">
+          <Link to="/projects">
             Projects
           </Link>
         </div>
