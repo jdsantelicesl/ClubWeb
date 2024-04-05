@@ -1,11 +1,33 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
+import Home from "./Home";
+import Projects from "./Projects";
+import About from "./About";
 
 function App() {
   return (
-    <div className="App #2">
-      <h1> Welcome to Programming Club Web, test4 </h1>
-      <p> This is a test </p>
-    </div>
+    <Router>
+      <div className="App">
+
+        <div className="hotbar">
+          <Link className="Link" to="/">
+            <p id="head" className="hSelec">
+              SCCPC
+            </p>
+          </Link>
+          <Link className="hSelec Link" to="/projects">
+            Projects
+          </Link>
+        </div>
+      
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
