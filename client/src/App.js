@@ -10,8 +10,8 @@ function App() {
     <Router>
       <div className="App">
 
-        <div>
-          <Link className="Link" to="/">
+        <div className="hotbar">
+          <Link to="/">
             <p id="head">
               SCCPC
             </p>

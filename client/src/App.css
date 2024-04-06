@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  color: rgb(17, 17, 18);
+  padding-bottom: 20vh;
+  font-size: calc((4vh + 1vw)/2);
+  font-weight: 600;
+}
+
+.hotbar {
+  container: flex;
+  background-color: rgb(144, 4, 44);
+  color: white;
+}
+
