@@ -1,6 +1,8 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+  margin-right: 1vw;
+  margin-left: 1vw;
 }
 
 body {
@@ -11,9 +13,40 @@ body {
   font-weight: 600;
 }
 
-.hotbar {
-  container: flex;
-  background-color: rgb(144, 4, 44);
-  color: white;
+a {
+  text-decoration: none;
 }
 
+.hotbar {
+  margin-top: -4vh;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(144, 4, 44); */
+  background-color: white;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 20px;
+}
+
+  .logoImg {
+    height: 10vh;
+    width: 20vw;
+    margin-top: 1.5vh;
+    margin-right: 2vw;
+  }
+
+.hButton {
+  color: white;
+  background-color: rgb(144, 4, 44);
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-radius: 3vh;
+}

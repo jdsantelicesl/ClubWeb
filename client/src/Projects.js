@@ -11,13 +11,6 @@ const Projects = () => {
           View on GitHub
         </a>
       </div>
-      <div className="project-card">
-        <h2>Project 2</h2>
-        <p>This is Juan's RC Car Project using Arduino.</p>
-        <a href="https://github.com/jdsantelicesl/Arduino-RC-Car" target="_blank" rel="noopener noreferrer">
-          View on GitHub
-        </a>
-      </div>
     </div>
   );
 };

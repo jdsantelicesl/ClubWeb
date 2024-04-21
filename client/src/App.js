@@ -12,20 +12,36 @@ function App() {
       <div className="App">
 
         <div className="hotbar">
-          <Link to="/">
-            <p id="head">
-              SCCPC
-            </p>
-          </Link>
-          <Link to="/projects">
-            Projects
-          </Link>
-          <Link to="/calendar">
-          <p id="head">
-            Calender
-            </p>
-          </Link>
+          <div className="logo">
+            <div className="flex">
+              <Link to="https://scc.losrios.edu/">                
+                  <img className="logoImg" src="/scc-logo.svg"></img>
+              </Link>
+              <Link to="/">
+                <div className="hButton">
+                  Programming Club
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="flex">
+            <div style={{marginRight: "3.5vw"}}>
+              <Link to="/projects">
+                <div className="hButton">
+                  Projects
+                </div>
+              </Link>
+            </div>
+            <div style={{ marginRight: "3.5vw" }}>
+              <Link to="/calendar">
+                <div className="hButton">
+                  Calendar
+                </div>
+              </Link>
+            </div>
+          </div>        
         </div>
+        <hr style={{marginTop: "-1.5vh"}}></hr>
       
         <Routes>
           <Route path="/about" element={<About />} />
