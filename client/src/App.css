@@ -54,14 +54,36 @@ a {
 }
 
 .footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
   background-color: rgb(144, 4, 44);
   display: flex;
-  margin-top:auto;
+  margin-bottom: auto;
   color: white;
   height: 30px;
   justify-content: space-evenly;
   align-items: center;
   font-size: 12px;
   padding: 25px 0;
+
+}
+.footer2 {
+  position:absolute;
+  left:0;
+  bottom: 100px;
+  right:0;
+  display: flex;
+  justify-content: left;
+  background-color: rgb(144, 4, 44);
+  height: 150px;
+  color: black;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: row;
 
 }
