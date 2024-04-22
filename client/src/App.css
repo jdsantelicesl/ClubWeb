@@ -3,6 +3,7 @@
   text-align: left;
   margin-right: 1vw;
   margin-left: 1vw;
+
 }
 
 body {
@@ -39,6 +40,7 @@ a {
     width: 20vw;
     margin-top: 1.5vh;
     margin-right: 2vw;
+    background-color: white;
   }
 
 .hButton {
@@ -49,4 +51,17 @@ a {
   padding-top: 1vh;
   padding-bottom: 1vh;
   border-radius: 3vh;
+}
+
+.footer {
+  background-color: rgb(144, 4, 44);
+  display: flex;
+  margin-top:auto;
+  color: white;
+  height: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+  padding: 25px 0;
+
 }
