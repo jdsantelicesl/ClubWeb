@@ -18,7 +18,7 @@ export default function Header() {
             <div className="logo">
               <div className="flex">
                 <Link to="https://scc.losrios.edu/">                
-                    <img className="logoImg" src={image} />
+                    <img className="logoImg2" src={image} />
                 </Link>
                 <div classname="flex">
                 <Link to="/">

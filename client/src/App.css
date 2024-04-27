@@ -1,8 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: left;
-  margin-right: 1vw;
-  margin-left: 1vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 
 }
 
@@ -18,8 +18,16 @@ a {
   text-decoration: none;
 }
 
+a:link{
+  color: white
+}
+
+a:visited{
+  color: #ffce04;
+}
+
 .hotbar {
-  margin-top: -4vh;
+  margin-top: 1vh;
   display: flex;
   justify-content: space-between;
   /* background-color: rgb(144, 4, 44); */
@@ -35,17 +43,29 @@ a {
   margin: 20px;
 }
 
-  .logoImg {
-    height: 10vh;
-    width: 20vw;
-    margin-top: 1.5vh;
-    margin-right: 2vw;
-    background-color: white;
-  }
+.logoImg {
+  height: auto;
+  width: 25%;
+  max-width: 30rem;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.logoImg2 {
+  height: 4rem;
+  width: auto;
+  max-width: 20vw;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  background-color: white;
+  vertical-align: middle;
+}
 
 .hButton {
   color: white;
-  background-color: rgb(144, 4, 44);
+  background-color: rgb(138, 0, 41);
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   padding-top: 1vh;
@@ -58,17 +78,20 @@ a {
   left:0;
   bottom:0;
   right:0;
-  background-color: rgb(144, 4, 44);
+  background-color: white;
   display: flex;
   margin-bottom: auto;
-  color: white;
-  height: 30px;
+  color: black;
+  height: 60px;
   justify-content: space-evenly;
   align-items: center;
   font-size: 12px;
   padding: 25px 0;
+  object-fit: cover;
+
 
 }
+
 .footer2 {
   position:absolute;
   left:0;
@@ -76,9 +99,9 @@ a {
   right:0;
   display: flex;
   justify-content: left;
-  background-color: rgb(144, 4, 44);
-  height: 150px;
-  color: black;
+  background-color: rgb(138, 0, 41);
+  height: 200px;
+  color: white;
   font-size: 14px;
   margin-top: auto;
   margin-bottom: auto;

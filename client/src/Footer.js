@@ -7,27 +7,27 @@ const Footer = () => {
         <div className="footer">
             <img className="logoImg" src={image2} />
             <p>
-Sacramento City College
+                <h2>Sacramento City College</h2>
 
-    (916) 558-2111
-    3835 Freeport Boulevard
-    Sacramento, CA 95822
-    </p>
-<p>
-Davis Center
+                (916) 558-2111 <br />
+                3835 Freeport Boulevard <br />
+                Sacramento, CA 95822
+            </p>
+            <p>
+                <h2>Davis Center</h2>
 
-    (530) 747-5200
-    1720 Jade Street
-    Davis, CA 95616
-</p>
-<p>
-West Sacramento Center
+                    (530) 747-5200 <br />
+                    1720 Jade Street <br />
+                    Davis, CA 95616
+            </p>
+            <p>     
+                <h2>West Sacramento Center</h2>
 
-    (916) 375-5511
-    1115 West Capitol Avenue
-    West Sacramento, CA 95691
+                    (916) 375-5511 <br />
+                    1115 West Capitol Avenue <br />
+                    West Sacramento, CA 95691
 
-</p>
+            </p>
         </div>
     )
 }
