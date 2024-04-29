@@ -73,7 +73,7 @@ a:visited {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 2vh;
   right: 0;
@@ -91,7 +91,7 @@ a:visited {
 }
 
 .footer2 {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 100px;
   right: 0;
@@ -107,4 +107,23 @@ a:visited {
   align-items: baseline;
   flex-direction: row;
   line-height: 1.5;
+  flex-wrap: wrap;
+}
+
+.memimg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  height: auto;
+  width: auto;
+
+
+
+}
+
+.memimg1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
