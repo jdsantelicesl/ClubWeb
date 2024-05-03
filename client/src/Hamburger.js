@@ -4,10 +4,10 @@ import "./App.css";
 export default function Hamburger() {
     return (
         <div className='hamburger'>
-            <div class='burger' /> <br />
-            <div class='burger' /> <br />
-            <div class='burger' /> <br />
+            <div class='burger' /> 
+            <div class='burger' /> 
+            <div class='burger' /> 
         </div>
 
     );
-};
+}

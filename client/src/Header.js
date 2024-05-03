@@ -49,8 +49,10 @@ export default function Header() {
                   <div className="hButton">About</div>
                 </Link>
               </div>
+              <div className="hButton">
               <div className="hamburger" > 
               <Hamburger />
+              </div>
               </div>
             </div>
           </div>

@@ -130,19 +130,21 @@ a:visited {
 }
 
 .hamburger {
-  width: 2rem;
-  height: 2 rem;
+  width: 30px;
+  height: 35px;
   display: flex;
+  align-self: flex-end;
   justify-content: space-evenly;
   flex-flow: column nowrap;
-  z-index: 8;
+  z-index: 10;
 }
 
 .burger { 
-  width: 3 rem;
-  height: 0.5rem;
+  width: 40px;
+  height: 5px;
   border-radius: 10px;
-  background-color: black;
-  transform-origin: 2px;
+  background-color: white;
+  transform-origin: 1px;
   transition: all 0.3s linear;
+  align-self: center;
 }
