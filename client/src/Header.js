@@ -58,14 +58,17 @@ export default function Header() {
           </div>
         </div>
         <hr style={{ marginTop: "-1.5vh" }}></hr>
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/calendar" element={<Calendar />} />
-          <Route path="/members" element={<Members />} />
-          <Route path="/resources" element={<Resources />} />
-        </Routes>
+        
+        <div style={{minHeight: "60vh"}}>
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/members" element={<Members />} />
+            <Route path="/resources" element={<Resources />} />
+          </Routes>
+          </div>
       </div>
     </Router>
   );
