@@ -16,7 +16,7 @@ export default function Header() {
         <div className="hotbar">
           <div className="logo">
             <div className="flex">
-              <Link to="https://scc.losrios.edu/">
+              <Link target='_blank' to="https://scc.losrios.edu/">
                 <img className="logoImg2" src={image} />
               </Link>
               <div classname="flex" style={{ marginRight: "1vw" }}>
