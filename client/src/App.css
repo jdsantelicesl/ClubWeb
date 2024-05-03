@@ -1,16 +1,15 @@
 .App {
   font-family: sans-serif;
   text-align: left;
-  margin-right: 1vw;
-  margin-left: 1vw;
-
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 
 body {
   background-color: white;
   color: rgb(17, 17, 18);
   padding-bottom: 20vh;
-  font-size: calc((4vh + 1vw)/2);
+  font-size: calc((4vh + 1vw) / 2);
   font-weight: 600;
 }
 
@@ -18,8 +17,16 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 .hotbar {
-  margin-top: -4vh;
+  margin-top: 1vh;
   display: flex;
   justify-content: space-between;
   /* background-color: rgb(144, 4, 44); */
@@ -35,55 +42,109 @@ a {
   margin: 20px;
 }
 
-  .logoImg {
-    height: 10vh;
-    width: 20vw;
-    margin-top: 1.5vh;
-    margin-right: 2vw;
-    background-color: white;
-  }
+.logoImg {
+  height: auto;
+  width: 25%;
+  max-width: 30rem;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.logoImg2 {
+  height: 4rem;
+  width: auto;
+  max-width: 20vw;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  background-color: white;
+  vertical-align: middle;
+}
 
 .hButton {
   color: white;
-  background-color: rgb(144, 4, 44);
+  background-color: rgb(138, 0, 41);
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  border-radius: 3vh;
+  border-radius: 2vh;
 }
 
 .footer {
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
-  background-color: rgb(144, 4, 44);
+  position: fixed;
+  left: 0;
+  bottom: 2vh;
+  right: 0;
+  background-color: white;
   display: flex;
   margin-bottom: auto;
-  color: white;
-  height: 30px;
+  color: black;
+  height: 75px;
   justify-content: space-evenly;
   align-items: center;
   font-size: 12px;
   padding: 25px 0;
-
+  object-fit: cover;
+  line-height: 1.75;
 }
+
 .footer2 {
-  position:absolute;
-  left:0;
+  position: fixed;
+  left: 0;
   bottom: 100px;
-  right:0;
+  right: 0;
   display: flex;
   justify-content: left;
-  background-color: rgb(144, 4, 44);
-  height: 150px;
-  color: black;
+  background-color: rgb(138, 0, 41);
+  height: 250px;
+  color: white;
   font-size: 14px;
   margin-top: auto;
   margin-bottom: auto;
   justify-content: space-evenly;
   align-items: baseline;
   flex-direction: row;
+  line-height: 1.5;
+  flex-wrap: wrap;
+}
 
+.memimg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  height: auto;
+  width: auto;
+  flex-direction: row;
+
+
+
+}
+
+.memimg1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.hamburger {
+  width: 30px;
+  height: 35px;
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+.burger { 
+  width: 40px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: white;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+  align-self: center;
 }
