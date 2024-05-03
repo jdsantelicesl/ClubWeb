@@ -22,7 +22,7 @@ a:link {
 }
 
 a:visited {
-  color: #ffce04;
+  color: white;
 }
 
 .hotbar {
@@ -117,6 +117,7 @@ a:visited {
   margin: auto;
   height: auto;
   width: auto;
+  flex-direction: row;
 
 
 
@@ -126,4 +127,22 @@ a:visited {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.hamburger {
+  width: 2rem;
+  height: 2 rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+  z-index: 8;
+}
+
+.burger { 
+  width: 3 rem;
+  height: 0.5rem;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 2px;
+  transition: all 0.3s linear;
 }

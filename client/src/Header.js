@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Calendar from "./Calendar";
 import image from "./scc.svg";
+import Hamburger from "./Hamburger";
 
 export default function Header() {
   return (
@@ -48,11 +49,13 @@ export default function Header() {
                   <div className="hButton">About</div>
                 </Link>
               </div>
+              <div className="hamburger" > 
+              <Hamburger />
+              </div>
             </div>
           </div>
         </div>
         <hr style={{ marginTop: "-1.5vh" }}></hr>
-
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
